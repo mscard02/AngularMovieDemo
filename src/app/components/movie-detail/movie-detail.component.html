@@ -1,0 +1,13 @@
+  <mat-card class="example-card">
+    <button mat-raised-button color="accent">info</button>
+    <mat-card-header>
+      <mat-card-title>
+        <b>{{movie.Title}}</b>
+      </mat-card-title>
+      <mat-card-subtitle>
+        <b>Rating:</b> {{movie.VoteAverage}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://image.tmdb.org/t/p/w500/{{movie.PosterImage}}" alt="{{movie.Title}}">
+    <mat-card-actions>     
+    </mat-card-actions>
+  </mat-card>

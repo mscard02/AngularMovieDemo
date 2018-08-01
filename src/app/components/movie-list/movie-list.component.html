@@ -1,0 +1,5 @@
+<mat-grid-list cols="12" rowHeight="650px" gutterSize="5px">
+  <mat-grid-tile [colspan]="3" *ngFor="let movie of newMovies;">
+    <app-movie-detail [movie]="movie"></app-movie-detail>
+  </mat-grid-tile>
+</mat-grid-list>
